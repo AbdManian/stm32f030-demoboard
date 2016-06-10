@@ -22,7 +22,7 @@ PREFIX		?= arm-none-eabi
 TARGETS		:= blinky 
 #TARGETS		+= other_target
 
-
+V=1
 # Be silent per default, but 'make V=1' will show all compiler calls.
 ifneq ($(V),1)
 Q := @
